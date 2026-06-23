@@ -1,0 +1,6 @@
+{
+  "name": "O Portador da Herança",
+  "description": "Ficha de personagem interativa de D&D 5e otimizada para celulares para a build Bárbaro Totêmico 3 / Mago da Guerra 2.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
