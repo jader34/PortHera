@@ -12,7 +12,7 @@ export default function CombatTab({ state }: CombatTabProps) {
 
   return (
     <div className="px-4 pb-20 flex flex-col gap-4 select-none animate-fade-in">
-      
+
       {/* Advantage Banner inside tab if Reckless is active */}
       {state.isRecklessActive && (
         <div className="bg-emerald-950/20 border border-emerald-500/50 rounded-xl p-3 flex items-center gap-2 text-xs text-emerald-300">
@@ -58,9 +58,9 @@ export default function CombatTab({ state }: CombatTabProps) {
           <div className="bg-dark-antracite/60 rounded-xl p-3 border border-dark-border flex justify-between items-center gap-3">
             <div className="text-left">
               <span className="text-[8px] font-mono text-gray-500 uppercase tracking-widest block leading-none">Tipo de Dano</span>
-              <span className="text-xs font-semibold text-gray-300">Concussivo / Perfurante</span>
+              <span className="text-xs font-semibold text-gray-300">Concussivo</span>
             </div>
-            
+
             <div className="text-right">
               <span className="text-[8px] font-mono text-gray-500 uppercase tracking-widest block leading-none">Dano Físico</span>
               <div className="flex items-baseline gap-1">
@@ -115,7 +115,7 @@ export default function CombatTab({ state }: CombatTabProps) {
               <span className="text-[8px] font-mono text-gray-500 uppercase tracking-widest block leading-none">Tipo de Dano</span>
               <span className="text-xs font-semibold text-gray-300">Concussivo</span>
             </div>
-            
+
             <div className="text-right">
               <span className="text-[8px] font-mono text-gray-500 uppercase tracking-widest block leading-none">Dano Físico</span>
               <div className="flex items-baseline gap-1">
